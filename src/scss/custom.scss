@@ -1,0 +1,35 @@
+$orange: #fc814a;
+$orange-light: #fd9e72;
+$white: #FFF;
+
+.bg-custom{
+    background-color: $orange;
+    border-color: $white;
+    border-width: 2px;
+}
+
+.btn {
+    &.bg-custom{
+        color: $white;
+        background-color: $orange-light;
+
+        &:hover{
+            background-color: $white;
+            color: $orange-light;
+            border-color: $orange-light;
+        }
+    }
+}
+
+.carousel{
+    margin-bottom: 4rem;
+}
+
+.carousel-item{
+    height: 32rem;
+}
+
+.carousel-caption{
+    bottom: 3rem;
+    z-index: 10;
+}
